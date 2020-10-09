@@ -1,11 +1,13 @@
+<!-- Importing Documentation -->
 <%- include partials/header.ejs%>
-
+<!-- Importing Navbar -->
 <%- include partials/main_nav.ejs%>
 
   <!-- Main Content -->
   <main class="container">
     <div class="jumbotron">
       <h1 class="display-4"><%= title %> Me</h1>
+      <!-- Contact Info -->
       <div class="card">
         <div class="card-body">
           <p>Michael Courneya</p>
@@ -13,6 +15,7 @@
           <p>717-926-9941</p>
         </div>
       </div>
+      <!-- Message Form -->
       <form action="/">
         <div class="form-group">
           <label for="fName">First Name</label>
@@ -35,7 +38,7 @@
       </form>
     </div>
   </main>
-
+<!-- Importing Bottom bar -->
 <%- include partials/bottom_nav.ejs %>
-
+<!-- Importing Scripts -->
 <%- include partials/footer.ejs %>
